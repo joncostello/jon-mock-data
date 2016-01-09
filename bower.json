@@ -1,10 +1,10 @@
 {
   "name": "jon-mock-data",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Jon Costello <costellj@gmail.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "A polymer element to return an array of random data based on a template",
   "keywords": [
     "web-component",
     "polymer"

@@ -1,8 +1,16 @@
 # jon-mock-data
 
-An element providing a starting point for your own reusable Polymer elements.
+A polymer element to generate an array of random data based on a template, the data is then bindable to play with.
 
-
+Example:
+```
+<jon-mock-data item-template='{"yep":"[xXyY]", "word":"[a-z][A-Z]{1,20}"}' count=10 data="{{d}}"></jon-mock-data>
+<template is="dom-repeat" items="{{d}}">
+  <p>{{item.word}}</p>
+</template>
+```
+Would create 10 paragraphs with a random string between 1 and 20 characters.
+ 
 ## Dependencies
 
 Element dependencies are managed via [Bower](http://bower.io/). You can
