@@ -1,0 +1,26 @@
+{
+  "name": "jon-mock-data",
+  "version": "1.0.3",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "polymer"
+  ],
+  "main": "jon-mock-data.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/joncostello/jon-mock-data/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
